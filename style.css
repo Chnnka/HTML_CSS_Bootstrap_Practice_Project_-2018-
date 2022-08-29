@@ -1,0 +1,111 @@
+html,body{
+	height: 100%;
+	font-family: 'Noto Sans', sans-serif;
+}
+.parallax{
+	background-image: url("img/back1.jpg");
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#whole{
+	/*background-image: url("img/art-artist-brush-102127.jpg");
+
+*/	
+}
+p,h1,h2,h3,h4,h5,h6{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+div#menubar1{
+	padding: 24px;
+	border:#999 1px dashed;
+	margin: 0px;
+}
+div#menubar1 > a{
+	background:#222;
+	padding: 12px 24px;
+	color:#999;
+	text-decoration: none;
+	border-radius: 3px;
+	font-size: 17px;
+	transition: background .3s linear 0s, color 0.3s linear 0s;
+}
+
+div#menubar1 > a:hover{
+	background:#777;
+	color:#222;
+}
+p{
+	color: #ffffff;
+	font-family: helvatica,sans-serif;
+}
+h1{
+	color: #ffffff;
+	font-family: helvatica,sans-serif;
+}
+h2{
+	color: #ffffff;
+	font-family: Arial;
+}
+h3{
+	color: #999;
+	font-family: Arial;
+}
+img{
+	width: 600px;
+	
+
+}
+h4{
+	margin-bottom: 10px;
+}
+ul{
+	display: inline-flex;
+	
+}
+.media{
+	transition: 
+	top: 50%;
+	left: 40%;
+	transform: translate(-53%, -50%);
+}
+
+
+
+.wrapper{
+	position: relative;
+}
+
+
+#paintt{
+	margin-top: 40px;
+}
+
+#afoot{
+	padding: 20px;
+	text-align: right;
+	color: #2d2d2d;
+	background-color: #000;
+
+}
+
+#pack{
+	background-color: #9999;
+	border-radius: 7px;
+	
+}
+#paintp{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+#nameofart{
+	color: #fff7;
+}
+
+
